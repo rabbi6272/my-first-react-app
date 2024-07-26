@@ -1,0 +1,20 @@
+body {
+  font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #888;
+  border-radius: 5px;
+}
+
+#item {
+  width: 100%;
+  border-bottom: 1px solid rgb(100 116 139);
+  padding: 0 0.5rem;
+  text-align: left;
+}
