@@ -12,6 +12,9 @@ body {
   border-radius: 5px;
 }
 
+.wrapper {
+  width: 90;
+}
 #item {
   width: 100%;
   border-bottom: 1px solid rgb(100 116 139);

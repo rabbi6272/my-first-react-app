@@ -21,7 +21,7 @@ export default function Todo() {
     );
   }
   return (
-    <div className="p-4 bg-slate-700 rounded-lg flex flex-col gap-4 h-3/4 md:h-2/4 w-4/5 lg:w-2/5 md:w-3/5 relative">
+    <div className="wrapper p-4 bg-slate-700 rounded-lg flex flex-col gap-4 h-3/5 md:h-2/4 lg:w-2/4 md:w-3/5">
       <SetItems handleSetItems={handleSetItems} />
       <ShowItems
         items={items}
